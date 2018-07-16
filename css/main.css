@@ -80,8 +80,7 @@ body {
 .logo,
 .nav,
 .information,
-.content,
-.footer{
+.content {
 	margin: 1%;
 }
 
@@ -89,7 +88,7 @@ footer {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 100%;
+	width: 1024px;
 	height: 115px;
 }
 
@@ -233,6 +232,7 @@ h1 {
 .content img,
 .content p {
 	margin-bottom: 30px;
+	margin-right: 40px;
 }
 
 h1 {
@@ -265,4 +265,8 @@ h1 {
 .footer {
 	background-color: #f0f0f0;
 	padding: 20px 10px;
+
+}
+footer {
+	padding: 0 10px;
 }
